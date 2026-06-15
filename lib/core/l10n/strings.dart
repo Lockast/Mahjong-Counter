@@ -105,7 +105,7 @@ class AppStrings {
       ? 'Loser: only flowers/seasons count'
       : 'Perdant : seules les fleurs/saisons comptent';
   String get handType => isEn ? 'Hand type' : 'Type de main';
-  String get grandJeuLabel => isEn ? 'Grand Jeu' : 'Grand Jeu';
+  String get grandJeuLabel => isEn ? 'Special hand' : 'Grand Jeu';
   String get mahjongBonuses => isEn ? 'Mah-Jong Bonuses' : 'Bonus Mah-Jong';
   String get incompatibleOptions => isEn
       ? 'Some options are mutually exclusive.'
@@ -126,7 +126,7 @@ class AppStrings {
   String get hidden => isEn ? 'Hidden' : 'Caché';
   String get exposed => isEn ? 'Exposed' : 'Exposé';
   String get chooseGrandJeu =>
-      isEn ? 'Choose a Grand Jeu' : 'Choisir un Grand Jeu';
+      isEn ? 'Choose a Special hand' : 'Choisir un Grand Jeu';
   String get calculateScore => isEn ? 'Calculate score' : 'Calculer le score';
   String confirmScore(int score) =>
       isEn ? 'Confirm — $score pts' : 'Confirmer — $score pts';
@@ -174,7 +174,7 @@ class AppStrings {
   String get average => isEn ? 'Average' : 'Moyenne';
   String get median => isEn ? 'Median' : 'Médiane';
   String get grandJeuxAchieved =>
-      isEn ? 'Grand Jeux achieved' : 'Grand Jeux réalisés';
+      isEn ? 'Special hands achieved' : 'Grands Jeux réalisés';
   String get notEnoughData =>
       isEn ? 'Not enough data yet.' : 'Pas encore assez de données.';
   String ordinalSuffix(int n) => isEn
@@ -193,7 +193,7 @@ class AppStrings {
       isEn ? 'Special explanations' : 'Explications spéciales';
   String get pointsDistribution =>
       isEn ? 'Points distribution' : 'Distribution des points';
-  String get grandJeuxSection => 'Grand Jeux';
+  String get grandJeuxSection => isEn ? 'Special hands' : 'Grands Jeux';
   String get languageSection => 'Langue / Language';
   String get creatorSection => isEn ? 'Creator' : 'Créateur';
 
@@ -317,7 +317,7 @@ class AppStrings {
 
   String get capTitle => isEn ? 'Score cap' : 'Limite de points';
   String get capBody => isEn
-      ? 'An ordinary Mah-Jong hand score cannot exceed 1000 points. Only a Grand Jeu can score above 1000 points, and its score is not subject to any multiplier or bonus.'
+      ? 'An ordinary Mah-Jong hand score cannot exceed 1000 points. Only a Special hand can score above 1000 points, and its score is not subject to any multiplier or bonus.'
       : 'Le score d\'un Mah-Jong ordinaire ne peut être supérieur à 1000 points. Seul un Grand Jeu permet de marquer plus de 1000 points, et le score de la combinaison n\'est sujet à aucun multiplicateur ou bonus.';
 
   String get callingHandTitle => isEn ? 'Calling hand' : 'Main appelante';

@@ -124,7 +124,7 @@ class HandScorer {
         combinations: const [],
         explanations: [
           isEn
-              ? 'Grand Jeu: $displayName = $pts pts'
+              ? 'Special hand: $displayName = $pts pts'
               : 'Grand Jeu : $displayName = $pts pts'
         ],
       );

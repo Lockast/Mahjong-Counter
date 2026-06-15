@@ -117,7 +117,7 @@ void main() {
   // ---------------------------------------------------------------------------
   // Grand Jeu fixed scoring
   // ---------------------------------------------------------------------------
-  group('Grand Jeu fixed scoring', () {
+  group('Grands Jeux fixed scoring', () {
     test('returns correct fixed score', () {
       final result = HandScorer.score(HandInput(
         tiles: const [],
@@ -129,7 +129,7 @@ void main() {
       expect(result.score, 5000);
     });
 
-    test('Grand Jeu not capped at 1000', () {
+    test('Grands Jeux not capped at 1000', () {
       final result = HandScorer.score(HandInput(
         tiles: const [],
         isMahjong: true,
@@ -141,14 +141,14 @@ void main() {
       expect(result.cappedAt1000, false);
     });
 
-    test('all Grand Jeu scores match spec', () {
+    test('all Grands Jeux scores match spec', () {
       for (final gj in GrandJeux.all) {
         expect(GrandJeux.scoreFor(gj.name), gj.points,
             reason: '${gj.name} should be ${gj.points}');
       }
     });
 
-    test('all Grand Jeux have descriptions', () {
+    test('all Grands Jeux have descriptions', () {
       for (final gj in GrandJeux.all) {
         expect(gj.description, isNotEmpty,
             reason: '${gj.name} needs a description');
@@ -699,7 +699,7 @@ void main() {
     });
   });
 
-  group('Grand Jeux list', () {
+  group('Grands Jeux list', () {
     test('non-empty', () => expect(GrandJeux.all, isNotEmpty));
     test('all have positive points', () {
       for (final gj in GrandJeux.all) {

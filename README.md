@@ -52,8 +52,6 @@ Flutter · Dart · sqflite · Riverpod · Material 3
 
 Vibe-codé avec Claude Code. À usage personnel uniquement.
 
-https://github.com/Lockast/Mahjong-Counter/releases/download/v1.0.0/MahjongCounter.apk
-
 ---
 
 ## 🇬🇧 English
@@ -67,10 +65,10 @@ Android app for tracking Mah-Jong scores for 4 players. Automatic score calculat
 - Create games with 4 named players and wind assignment
 - Enter hands turn by turn with tile selection
 - Automatic score calculation with combination and multiplier breakdown
-- Support for all "Grand Jeux" (fixed-score special hands)
+- Support for all special hands with fixed-scores
 - Advanced system of points distribution between players
 - Full game history with per-turn details
-- Player statistics (rankings, average scores, Grands Jeux achieved)
+- Player statistics (rankings, average scores, special hands achieved)
 - French and English interface
 
 ## Download
@@ -90,8 +88,6 @@ flutter run
 flutter build apk --release
 ```
 
----
-
 ### Stack
 
 Flutter · Dart · sqflite · Riverpod · Material 3
@@ -99,6 +95,8 @@ Flutter · Dart · sqflite · Riverpod · Material 3
 ### Notes
 
 Vibe-coded with Claude Code. For personal use only. 
+
+---
 
 ## Captures d'écran supplémentaires / More screenshots
 
