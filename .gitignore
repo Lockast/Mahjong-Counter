@@ -1,0 +1,47 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Build outputs
+build/
+*.apk
+*.aab
+*.ipa
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/google-services.json
+*.keystore
+*.jks
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Dart coverage
+coverage/
+
+# Claude Code (AI assistant tooling — not part of the project)
+.claude/
+CLAUDE.md

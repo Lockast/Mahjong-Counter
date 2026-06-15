@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "comment": "Catalogue des tuiles de Mah-Jong. Modifiez les champs 'file' pour adapter les noms de fichiers. Placez vos images dans assets/tiles/.",
+  "suits": [
+    {
+      "id": "bambou",
+      "label": "Bambou",
+      "tiles": [
+        {"id": "bambou_1", "file": "bamboo1.jpg", "number": 1, "label": "Bambou 1"},
+        {"id": "bambou_2", "file": "bamboo2.jpg", "number": 2, "label": "Bambou 2"},
+        {"id": "bambou_3", "file": "bamboo3.jpg", "number": 3, "label": "Bambou 3"},
+        {"id": "bambou_4", "file": "bamboo4.jpg", "number": 4, "label": "Bambou 4"},
+        {"id": "bambou_5", "file": "bamboo5.jpg", "number": 5, "label": "Bambou 5"},
+        {"id": "bambou_6", "file": "bamboo6.jpg", "number": 6, "label": "Bambou 6"},
+        {"id": "bambou_7", "file": "bamboo7.jpg", "number": 7, "label": "Bambou 7"},
+        {"id": "bambou_8", "file": "bamboo8.jpg", "number": 8, "label": "Bambou 8"},
+        {"id": "bambou_9", "file": "bamboo9.jpg", "number": 9, "label": "Bambou 9"}
+      ]
+    },
+    {
+      "id": "caracteres",
+      "label": "Caractères",
+      "tiles": [
+        {"id": "caracteres_1", "file": "cara1.jpg", "number": 1, "label": "Caractère 1"},
+        {"id": "caracteres_2", "file": "cara2.jpg", "number": 2, "label": "Caractère 2"},
+        {"id": "caracteres_3", "file": "cara3.jpg", "number": 3, "label": "Caractère 3"},
+        {"id": "caracteres_4", "file": "cara4.jpg", "number": 4, "label": "Caractère 4"},
+        {"id": "caracteres_5", "file": "cara5.jpg", "number": 5, "label": "Caractère 5"},
+        {"id": "caracteres_6", "file": "cara6.jpg", "number": 6, "label": "Caractère 6"},
+        {"id": "caracteres_7", "file": "cara7.jpg", "number": 7, "label": "Caractère 7"},
+        {"id": "caracteres_8", "file": "cara8.jpg", "number": 8, "label": "Caractère 8"},
+        {"id": "caracteres_9", "file": "cara9.jpg", "number": 9, "label": "Caractère 9"}
+      ]
+    },
+    {
+      "id": "sapek",
+      "label": "Sapèques",
+      "tiles": [
+        {"id": "sapek_1", "file": "sapek1.jpg", "number": 1, "label": "Sapèque 1"},
+        {"id": "sapek_2", "file": "sapek2.jpg", "number": 2, "label": "Sapèque 2"},
+        {"id": "sapek_3", "file": "sapek3.jpg", "number": 3, "label": "Sapèque 3"},
+        {"id": "sapek_4", "file": "sapek4.jpg", "number": 4, "label": "Sapèque 4"},
+        {"id": "sapek_5", "file": "sapek5.jpg", "number": 5, "label": "Sapèque 5"},
+        {"id": "sapek_6", "file": "sapek6.jpg", "number": 6, "label": "Sapèque 6"},
+        {"id": "sapek_7", "file": "sapek7.jpg", "number": 7, "label": "Sapèque 7"},
+        {"id": "sapek_8", "file": "sapek8.jpg", "number": 8, "label": "Sapèque 8"},
+        {"id": "sapek_9", "file": "sapek9.jpg", "number": 9, "label": "Sapèque 9"}
+      ]
+    }
+  ],
+  "honours": {
+    "winds": [
+      {"id": "vent_est",   "file": "est.jpg",  "wind": "est",   "label": "Est",   "symbol": "東"},
+      {"id": "vent_sud",   "file": "sud.jpg",  "wind": "sud",   "label": "Sud",   "symbol": "南"},
+      {"id": "vent_ouest", "file": "ouest.jpg","wind": "ouest", "label": "Ouest", "symbol": "西"},
+      {"id": "vent_nord",  "file": "nord.jpg", "wind": "nord",  "label": "Nord",  "symbol": "北"}
+    ],
+    "dragons": [
+      {"id": "dragon_blanc", "file": "blanc.jpg", "label": "Dragon Blanc"},
+      {"id": "dragon_vert",  "file": "vert.jpg",  "label": "Dragon Vert"},
+      {"id": "dragon_rouge", "file": "rouge.jpg", "label": "Dragon Rouge"}
+    ]
+  },
+  "bonus": {
+    "flowers": [
+      {"id": "fleur_1", "file": "flower1.png", "number": 1, "label": "Fleur 1 (Est)"},
+      {"id": "fleur_2", "file": "flower2.png", "number": 2, "label": "Fleur 2 (Sud)"},
+      {"id": "fleur_3", "file": "flower3.png", "number": 3, "label": "Fleur 3 (Ouest)"},
+      {"id": "fleur_4", "file": "flower4.png", "number": 4, "label": "Fleur 4 (Nord)"}
+    ],
+    "seasons": [
+      {"id": "saison_1", "file": "saison1.png", "number": 1, "label": "Saison 1 (Est)"},
+      {"id": "saison_2", "file": "saison2.png", "number": 2, "label": "Saison 2 (Sud)"},
+      {"id": "saison_3", "file": "saison3.png", "number": 3, "label": "Saison 3 (Ouest)"},
+      {"id": "saison_4", "file": "saison4.png", "number": 4, "label": "Saison 4 (Nord)"}
+    ]
+  }
+}
