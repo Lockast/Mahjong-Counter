@@ -4,7 +4,9 @@
 
 ---
 
-| ![](screenshots/hand1.jpg) | ![](screenshots/game2.jpg) | ![](screenshots/stats1.jpg) |
+| Hand input | Game scores | Stats |
+|:---:|:---:|:---:|
+| <img src="screenshots/hand1.jpg" width="250"> | <img src="screenshots/game2.jpg" width="250"> | <img src="screenshots/stats1.jpg" width="250"> |
 
 ---
 
@@ -24,6 +26,10 @@ Application Android de suivi des scores de Mah-Jong pour 4 joueurs. Calcul autom
 - Historique complet des parties avec détail de chaque tour
 - Statistiques par joueur (classements, scores moyens, Grands Jeux réalisés)
 - Interface disponible en français et en anglais
+
+## Téléchargement
+
+Télécharger la dernière version de l'application ici: [Releases](../../releases/download/v1.0.0/MahjongCounter.apk).
 
 ### Construire et installer
 
@@ -46,6 +52,8 @@ Flutter · Dart · sqflite · Riverpod · Material 3
 
 Vibe-codé avec Claude Code. À usage personnel uniquement.
 
+https://github.com/Lockast/Mahjong-Counter/releases/download/v1.0.0/MahjongCounter.apk
+
 ---
 
 ## 🇬🇧 English
@@ -64,6 +72,10 @@ Android app for tracking Mah-Jong scores for 4 players. Automatic score calculat
 - Full game history with per-turn details
 - Player statistics (rankings, average scores, Grands Jeux achieved)
 - French and English interface
+
+## Download
+
+Download the latest Android APK here: [Releases](../../releases/download/v1.0.0/MahjongCounter.apk).
 
 ### Build & Install
 
@@ -90,5 +102,14 @@ Vibe-coded with Claude Code. For personal use only.
 
 ## Captures d'écran supplémentaires / More screenshots
 
-| ![](screenshots/hand2.jpg) | ![](screenshots/game1.jpg) | ![](screenshots/history1.jpg) |
-| ![](screenshots/history2.jpg) | ![](screenshots/info1.jpg) | ![](screenshots/info2.jpg) |
+| Hand input 1 | Hand input 2 | Turn scores |
+|:---:|:---:|:---:|
+| <img src="screenshots/hand1.jpg" width="250"> | <img src="screenshots/hand2.jpg" width="250"> | <img src="screenshots/game1.jpg" width="250"> |
+
+| Game scores | History 1 | History 2 |
+|:---:|:---:|:---:|
+| <img src="screenshots/game2.jpg" width="250"> | <img src="screenshots/history1.jpg" width="250"> | <img src="screenshots/history2.jpg" width="250"> |
+
+| Stats | Info 1 | Info 2 |
+|:---:|:---:|:---:|
+| <img src="screenshots/stats1.jpg" width="250"> | <img src="screenshots/info1.jpg" width="250"> | <img src="screenshots/info2.jpg" width="250"> |
